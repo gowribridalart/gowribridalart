@@ -1,137 +1,789 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gowri Bridal Mehndi offers exquisite bridal henna designs in Chennai for weddings, engagements, baby showers, and festive occasions. Serving Kodambakkam, T. Nagar, Vadapalani and more.">
-  <meta name="keywords" content="Bridal Mehndi Chennai, Henna Artist Chennai, Gowri Bridal Art, Bridal Mehndi Artist Kodambakkam, Arabic Mehndi Designs">
-  <meta name="author" content="Gowri Bridal Art">
-  <title>Gowri Bridal Art - Bridal Mehndi in Chennai</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papLrN9Kq2ZCyGNNX7DVeBHT4txYHnTz3kHpz7Ej1cVYpEHRB3XjaKVPluFVdqSKWjEWD1wAAdULag6xQZtSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Open Sans', sans-serif; background: #fff8f4; color: #4b2e2e; }
-    header, footer { background: #c62828; color: #fff; text-align: center; padding: 1.5rem; position: relative; }
-    .hero { background: linear-gradient(to right, #f57c00, #ffeb3b); padding: 4rem 2rem; text-align: center; color: #4b2e2e; }
-    .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 1rem; }
-    .carousel-container { position: relative; overflow: hidden; height: 250px; }
-    .carousel { display: flex; transition: transform 1s ease-in-out; }
-    .carousel img { min-width: 100%; object-fit: cover; height: 250px; }
-    .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; font-size: 2rem; padding: 0 15px; cursor: pointer; z-index: 1; }
-    .left-btn { left: 0; }
-    .right-btn { right: 0; }
-    .section { padding: 2rem; max-width: 960px; margin: auto; }
-    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 2rem; }
-    .gallery img { width: 100%; border-radius: 10px; border: 2px solid #e3c9c9; transition: transform 0.3s ease; cursor: zoom-in; }
-    .gallery img:hover { transform: scale(1.05); }
-    .areas { margin-top: 2rem; }
-    .form-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; background: #f3e1dc; padding: 2rem; max-width: 960px; margin: auto; }
-    form { display: flex; flex-direction: column; gap: 1rem; flex: 1 1 100%; }
-    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; }
-    button { background: #c62828; color: white; border: none; padding: 0.75rem; cursor: pointer; border-radius: 4px; }
-    .footer-info { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; padding: 1rem; font-size: 0.9rem; }
-    .footer-info div { flex: 1; text-align: left; }
-    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; padding: 10px 15px; color: white; border-radius: 50px; text-decoration: none; font-weight: bold; }
-    .logo { position: absolute; top: 10px; left: 10px; width: 120px; }
-  </style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gowri Bridal Art: Top-rated Bridal Mehendi Artist in Chennai. Exclusive, passionate henna services for weddings. Book the best bridal artist in Chennai today.">
+    <meta name="keywords" content="Gowri Bridal Artist Chennai services, Best Bridal Artist Gowri Chennai, Bridal Mehendi Artist Gowri Chennai, Professional Bridal Artist Gowri Chennai, Gowri Bridal Henna Artist Chennai, Top Bridal Artist in Chennai Gowri, Chennai Bridal Artist Gowri reviews, Wedding Mehendi Artist Gowri Chennai, Experienced Bridal Artist Gowri Chennai, Gowri Bridal Mehendi in Chennai, Bridal Henna Services by Gowri Chennai, Customized Bridal Mehendi Gowri Chennai, Affordable Bridal Artist Gowri Chennai, Bridal Artist for Weddings Gowri Chennai, Bridal Mehndi Service in Chennai, Chennai Bridal Mehndi Cost and Prices, Bridal Mehndi Near Me">
+    <meta name="author" content="Gowri Bridal Art">
+    <meta property="og:title" content="Gowri Bridal Art | Best Mehendi Artist in Chennai">
+    <meta property="og:description" content="Exquisite bridal mehendi designs by Gowri. Passionate, personalized, and purely magical. Based in Chennai.">
+    <meta property="og:image" content="https://images.pexels.com/photos/12495668/pexels-photo-12495668.jpeg">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    
+    <title>Gowri Bridal Art | Best Bridal Mehendi Artist in Chennai</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Schema Markup for Local SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Gowri Bridal Art",
+      "image": "https://images.pexels.com/photos/12495668/pexels-photo-12495668.jpeg",
+      "telephone": "9003385404",
+      "email": "gowribridalart@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "priceRange": "₹₹",
+      "description": "Top-rated freelance bridal mehendi artist in Chennai offered personalized henna services.",
+      "founder": {
+        "@type": "Person",
+        "name": "Gowri"
+      }
+    }
+    </script>
+
+    </head>
 <body>
 
-<header>
-  <img src="logo.png" alt="Gowri Bridal Art Logo" class="logo">
-  <h1>Gowri Bridal Art</h1>
-  <p>Chennai’s Professional Bridal Mehndi Artist</p>
-</header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Gowri Bridal Art</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact-form" class="cta-btn">Book Now</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
 
-<div class="hero">
-  <h1>Elegant Bridal Mehndi for Your Special Day</h1>
-  <p>Skin-safe, intricate, and customized mehndi for every celebration</p>
+    <!-- Hero Section (Carousel) -->
+    <header id="home" class="hero">
+        <div class="carousel-container">
+		
+		
+		<!-- Slide 1 -->
+<div class="slide active"
+style="background-image: url('assets/images/gowri-bridal-mehendi-chennai_hero_1.jpg');">
+    <img src="assets/images/gowri-bridal-mehendi-chennai_hero_1.jpg"
+         alt="Bridal Mehendi Artist Gowri Chennai – Exquisite Wedding Henna Design"
+         title="Best Bridal Mehendi Artist in Chennai – Gowri Bridal Art"
+         style="display:none;">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Exquisite Bridal Mehendi in Chennai</h1>
+        <p>Where Passion Meets Tradition. Personalized Artistry by Gowri.</p>
+        <a href="#contact-form" class="hero-btn">Get a Quote</a>
+    </div>
 </div>
 
-<div class="carousel-container">
-  <button class="carousel-btn left-btn" onclick="moveSlide(-1)">&#10094;</button>
-  <div class="carousel" id="carousel">
-    <img src="https://images.pexels.com/photos/1550339/pexels-photo-1550339.jpeg" alt="Mehndi Design 1">
-    <img src="https://images.pexels.com/photos/2107744/pexels-photo-2107744.jpeg" alt="Mehndi Design 2">
-    <img src="https://images.pexels.com/photos/1598375/pexels-photo-1598375.jpeg" alt="Mehndi Design 3">
-  </div>
-  <button class="carousel-btn right-btn" onclick="moveSlide(1)">&#10095;</button>
+<!-- Slide 2 -->
+<div class="slide"
+style="background-image: url('assets/images/gowri-bridal-mehendi-chennai_hero_2.jpg');">
+    <img src="assets/images/gowri-bridal-mehendi-chennai_hero_2.jpg"
+         alt="Intricate Bridal Mehendi Designs by Gowri – Top Bridal Artist in Chennai"
+         title="Intricate Bridal Mehendi Chennai – Gowri Bridal Art"
+         style="display:none;">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Intricate Designs, Dark Stains</h1>
+        <p>The Best Bridal Henna Artist in Chennai.</p>
+        <a href="#gallery" class="hero-btn">View Gallery</a>
+    </div>
 </div>
 
-<section class="section">
-  <h2>About</h2>
-  <p>
-    Gowri Bridal Mehndi is a premium bridal henna service based in Chennai, offering exquisite and customized mehndi designs for weddings, engagements, baby showers, and festive occasions. With years of experience and a passion for traditional artistry, Gowri specializes in intricate bridal mehndi, Arabic, Rajasthani, Indo-western, and contemporary henna patterns.
-  </p>
-  <p>
-    We use skin-safe, chemical-free henna to ensure rich, long-lasting color and beautiful results. Whether it’s full-hand bridal mehndi or elegant designs for friends and family, Gowri creates timeless art tailored to your style.
-  </p>
+<!-- Slide 3 -->
+<div class="slide"
+style="background-image: url('assets/images/gowri-bridal-mehendi-chennai_hero_3.jpg');">
+    <img src="assets/images/gowri-bridal-mehendi-chennai_hero_3.jpg"
+         alt="Customized Bridal Mehendi Chennai – Wedding Henna by Gowri"
+         title="Customized Bridal Mehendi Designs Chennai – Gowri Bridal Artist"
+         style="display:none;">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Your Wedding, Your Story</h1>
+        <p>Customized Mehendi Artistry for the Modern Bride.</p>
+        <a href="https://wa.me/919003385404?text=Hi%20Gowri,%20I%20am%20looking%20for%20bridal%20mehendi%20services%20in%20Chennai."
+           class="hero-btn">Chat on WhatsApp</a>
+    </div>
+</div>
 
-  <div class="gallery">
-    <img src="https://images.pexels.com/photos/1054385/pexels-photo-1054385.jpeg" alt="Gallery 1">
-    <img src="https://images.pexels.com/photos/1484656/pexels-photo-1484656.jpeg" alt="Gallery 2">
-    <img src="https://images.pexels.com/photos/1418351/pexels-photo-1418351.jpeg" alt="Gallery 3">
-    <img src="https://images.pexels.com/photos/1587031/pexels-photo-1587031.jpeg" alt="Gallery 4">
-  </div>
 
-  <div class="areas">
-    <h3>Serving Areas (Chennai PIN Codes):</h3>
-    <ul>
-      <li>600024 – Kodambakkam</li>
-      <li>600026 – Vadapalani</li>
-      <li>600033 – West Mambalam</li>
-      <li>600017 – T. Nagar</li>
-      <li>600083 – Ashok Nagar</li>
-      <li>600035 – Nandanam</li>
-      <li>600020 – Adyar</li>
-      <li>600078 – K. K. Nagar</li>
-      <li>600032 – Guindy</li>
-      <li>600031 – Chetput</li>
-      <li>600094 – Choolaimedu</li>
-      <li>600029 – Aminjikarai</li>
-    </ul>
-  </div>
+
+
+           
+           
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Gowri</h2>
+            <div class="separator"></div>
+            <p class="lead">Professional Bridal Artist in Chennai | Passionate & Exclusive</p>
+            <p>Mehendi is not just a service for me; it is an art form I execute with deep passion. As a freelance bridal mehendi artist based exclusively in Chennai, I handle every client personally, ensuring that your bridal henna is unique, intricate, and rich in color. From traditional Indian motifs to modern portraits, I bring your vision to life.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Masterpieces</h2>
+            <div class="separator"></div>
+        <div class="gallery-grid">
+
+    <!-- 1 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai1.jpg"
+        alt="Bridal Mehendi by Gowri – Best Bridal Artist in Chennai design 1"
+        title="Bridal Mehendi Artist Gowri Chennai | Design 1">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 2 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai2.jpg"
+        alt="Gowri Bridal Mehendi Chennai services – Bridal henna design 2"
+        title="Gowri Bridal Henna Artist Chennai | Design 2">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 3 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai3.jpg"
+        alt="Top Bridal Artist in Chennai Gowri showcasing mehendi design 3"
+        title="Top Bridal Artist in Chennai Gowri | Mehendi Design 3">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 4 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai4.jpg"
+        alt="Wedding Mehendi Artist Gowri Chennai – full hand bridal design 4"
+        title="Wedding Mehendi Artist Gowri Chennai | Bridal Design 4">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 5 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai5.jpg"
+        alt="Professional Bridal Artist Gowri Chennai – unique mehendi design 5"
+        title="Professional Bridal Artist Gowri Chennai | Design 5">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 6 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai6.jpg"
+        alt="Bridal Henna Artist Gowri Chennai – premium mehendi design 6"
+        title="Bridal Henna Artist Gowri Chennai | Design 6">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 7 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai7.jpg"
+        alt="Bridal Mehendi Chennai portfolio – Gowri Bridal Artist design 7"
+        title="Best Bridal Artist Gowri Chennai | Design 7">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 8 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai8.jpg"
+        alt="Chennai Bridal Artist Gowri – traditional mehendi design 8"
+        title="Chennai Bridal Artist Gowri | Traditional Design 8">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 9 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai9.jpg"
+        alt="Gowri Bridal Mehendi Chennai – elegant design 9"
+        title="Gowri Bridal Mehendi Chennai | Elegant Bridal Design 9">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 10 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai10.jpg"
+        alt="Bridal mehndi cost in Chennai – Gowri design sample 10"
+        title="Bridal Mehndi Price in Chennai | Design 10 by Gowri">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 11 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai11.jpg"
+        alt="Bridal mehendi home service Chennai – Gowri bridal artist design 11"
+        title="Bridal Mehendi Home Service Chennai | Design 11">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 12 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai12.jpg"
+        alt="Bridal mehndi services near me Chennai – design 12 by Gowri"
+        title="Bridal Mehndi Services Near Me Chennai | Design 12">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 13 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai13.jpg"
+        alt="Bridal mehendi artist Chennai – Gowri design 13"
+        title="Bridal Mehendi Artist Chennai | Gowri Design 13">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 14 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai14.jpg"
+        alt="Bridal mehndi photo gallery Chennai – design 14"
+        title="Bridal Mehendi Photos Chennai | Design 14 by Gowri">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 15 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai15.jpg"
+        alt="Best bridal mehendi Chennai near me – design 15"
+        title="Bridal Mehendi Near Me Chennai | Design 15">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 16 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai16.jpg"
+        alt="Wedding bridal mehendi designer Chennai – design 16"
+        title="Wedding Bridal Mehendi Chennai | Design 16">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 17 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai17.jpg"
+        alt="Bridal mehndi professional design Chennai – design 17"
+        title="Bridal Mehndi Professional Design Chennai | Design 17">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 18 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai18.jpg"
+        alt="Experienced bridal artist Gowri Chennai – design 18"
+        title="Experienced Bridal Artist Gowri Chennai | Design 18">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 19 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai19.jpg"
+        alt="Customized bridal mehendi Chennai – design 19"
+        title="Customized Bridal Mehendi Gowri Chennai | Design 19">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 20 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai20.jpg"
+        alt="Bridal henna prices Chennai – design 20"
+        title="Bridal Henna Prices Chennai | Design 20 by Gowri">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 21 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai21.jpg"
+        alt="Bridal mehendi shop Chennai Anna Nagar – design 21"
+        title="Bridal Mehendi Anna Nagar Chennai | Design 21">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 22 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai22.jpg"
+        alt="Bridal mehendi photos Chennai – design 22"
+        title="Bridal Mehendi Photos Chennai | Design 22">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 23 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai23.jpg"
+        alt="Indian bridal mehendi Chennai – design 23"
+        title="Indian Bridal Mehendi Chennai | Design 23">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 24 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai24.jpg"
+        alt="Arabic bridal mehendi Chennai – design 24"
+        title="Arabic Bridal Mehendi Chennai | Design 24">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+    <!-- 25 -->
+    <div class="gallery-item">
+        <img src="assets/images/gowri-bridal-mehendi-chennai25.jpg"
+        alt="Affordable bridal artist Gowri Chennai – design 25"
+        title="Affordable Bridal Artist Gowri Chennai | Design 25">
+        <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+    </div>
+
+</div>
+
+        </div>
+    </section>
+
+    <!-- Lightbox Modal (Enlarged) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-image" src="" alt="Gallery Preview">
+        <div class="lightbox-controls">
+            <span class="prev-btn"><i class="fas fa-chevron-left"></i></span>
+            <span class="next-btn"><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Love</h2>
+            <div class="separator"></div>
+            <div class="testimonial-wrapper">
+                <button class="testimonial-nav-btn t-prev" id="slideLeft"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-slider" id="reviewSlider">
+                    <div class="testimonial-card">
+                        <p>"Gowri is absolutely the best bridal artist in Chennai! Her passion shows in her work. The stain was dark and the design was exactly what I wanted."</p>
+                        <h4>- Ananya R.</h4>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Professional, punctual, and incredibly talented. She made me feel so comfortable. Highly recommend Gowri Bridal Art."</p>
+                        <h4>- Priya S.</h4>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Affordable yet premium quality. Everyone at my wedding asked about my mehendi. Thank you, Gowri!"</p>
+                        <h4>- Lakshmi K.</h4>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The intricacy of her designs is unmatched in Chennai. She was very patient and friendly throughout the process."</p>
+                        <h4>- Divya M.</h4>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"I booked her for my engagement and wedding. Both times, the output was stunning. The gold undertones looked amazing in photos!"</p>
+                        <h4>- Swetha V.</h4>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                </div>
+                <button class="testimonial-nav-btn t-next" id="slideRight"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+	
+	<section id="faq" class="faq-section">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="separator"></div>
+
+        <div class="faq-accordion">
+		
+				<div class="faq-item">
+					<button class="faq-question">1. What makes you the best bridal mehendi artist in Chennai?</button>
+					<div class="faq-answer">
+						<p>I have been passionate about mehendi since my school days, and what started as a hobby has grown into my full-time profession. With over 12 years of experience, I focus on delivering detailed, neat and deeply stained bridal mehendi that brides love.</p>
+					</div>
+				</div>
+
+
+            <div class="faq-item">
+                <button class="faq-question">2. How much does bridal mehndi cost in Chennai?</button>
+                <div class="faq-answer">
+                    <p><strong>Bridal Mehendi:</strong> Starts at ₹2,000 and can go up to ₹10,000 depending on complexity, detailing, and hand coverage.</p>
+                    <p><strong>Guest Mehendi:</strong> Starts at ₹150 per hand (simple designs). Prices vary based on the number of guests and design style.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">3. Do you offer home-service bridal mehendi in Chennai?</button>
+                <div class="faq-answer">
+                    <p>Yes! I offer home service across Chennai including Anna Nagar, T Nagar, Velachery, Porur, Nolambur, Tambaram, OMR, ECR and more.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">4. How many hours does bridal mehendi take?</button>
+                <div class="faq-answer">
+                    <p>Bridal mehendi usually takes 3 to 6 hours based on customization and detailing.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">5. What should I do to get a darker mehendi stain?</button>
+                <div class="faq-answer">
+                    <p>Avoid water for 24 hours, keep mehendi for at least 6–8 hours, scrape instead of washing, and apply clove fumes or Vicks afterward.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">6. Do you provide engagement or guest mehendi?</button>
+                <div class="faq-answer">
+                    <p>Yes! I provide engagement mehendi, sangeet mehendi, baby shower mehendi and guest mehendi at affordable pricing.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">7. Can I show my own design for customization?</button>
+                <div class="faq-answer">
+                    <p>Yes, I can replicate any design or create a fully customized pattern based on your theme or story.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">8. Why do brides wear mehendi for weddings?</button>
+                <div class="faq-answer">
+                    <p>Mehendi signifies good luck, love, prosperity and well-being of the bride. A darker stain symbolizes a stronger bond and love.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">9. Do you provide mehendi services for outstation weddings?</button>
+                <div class="faq-answer">
+                    <p>No, I offer mehendi services only within Chennai. Outstation or destination wedding bookings are not accepted.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">10. How do I book you for my bridal mehendi?</button>
+                <div class="faq-answer">
+                    <p>You can call or WhatsApp me at <strong>9003385404</strong> or fill the enquiry form on this website. Bookings are confirmed based on date availability.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
-<div class="form-container">
-  <form action="https://formsubmit.co/gowribridalart@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="tel" name="phone" placeholder="Phone Number" required>
-    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-    <input type="hidden" name="_captcha" value="false">
-  </form>
-</div>
 
-<a class="whatsapp" href="https://wa.me/919003385404" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
 
-<footer>
-  <div class="footer-info">
-    <div>
-      <i class="fas fa-envelope"></i> gowribridalart@gmail.com<br>
-      <i class="fas fa-phone"></i> 9003385404<br>
-      <i class="fab fa-instagram"></i> <a href="https://instagram.com/gowribridalart" target="_blank" style="color:#fff; text-decoration:underline;">@gowribridalart</a>
-    </div>
-    <div style="text-align: right;">
-      &copy; 2025 Gowri Bridal Art. All rights reserved.
-    </div>
-  </div>
-</footer>
+
+
+
+
+
+    <!-- Contact Form Section (New) -->
+    <section id="contact-form" class="contact-form-section">
+        <div class="container">
+            <h2>Book Your Date</h2>
+            <div class="separator"></div>
+            <div class="form-container">
+                <!-- Web3Forms Form Service - No Backend Required -->
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- IMPORTANT: Replace YOUR_ACCESS_KEY_HERE with your actual key from web3forms.com -->
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" required placeholder="Enter your WhatsApp number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Type</label>
+                        <select id="service" name="service" class="form-control">
+                            <option value="Bridal Mehendi">Bridal Mehendi</option>
+                            <option value="Guest Mehendi">Guest Mehendi</option>
+                            <option value="Engagement Mehendi">Engagement Mehendi</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Event Date</label>
+                        <input type="date" id="date" name="date" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Details</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Tell me about your design preferences, location, etc."></textarea>
+                    </div>
+
+                    <!-- Hidden Redirect (Optional) -->
+                    <input type="hidden" name="redirect" value="https://gowri-bridal-art.vercel.app">
+
+                    <button type="submit" class="submit-btn">Send Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="separator"></div>
+            <p>Planning your big day in Chennai? Let's create magic together.</p>
+            
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:9003385404">9003385404</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:gowribridalart@gmail.com">gowribridalart@gmail.com</a>
+                </div>
+            </div>
+
+            <a href="https://wa.me/919003385404?text=Hi%20Gowri,%20I%20saw%20your%20website%20and%20would%20like%20to%20enquire%20about%20bridal%20mehendi." class="whatsapp-float" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            
+            <p class="copyright">&copy; <span id="currentYear"></span> Gowri Bridal Art. All Rights Reserved. <br> Top Bridal Artist in Chennai. <span>&#10084;</span></p>
 
 <script>
-  const carousel = document.getElementById('carousel');
-  let index = 0;
-
-  function moveSlide(step) {
-    const totalSlides = carousel.children.length;
-    index = (index + step + totalSlides) % totalSlides;
-    carousel.style.transform = `translateX(-${index * 100}%)`;
-  }
-
-  setInterval(() => moveSlide(1), 3000);
+  // Get the current year and display it dynamically
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
 </script>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // --- Mobile Menu Toggle ---
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navItems = document.querySelectorAll('.nav-links li a');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // --- Hero Carousel ---
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Change slide every 5 seconds
+        setInterval(nextSlide, 5000);
+
+        // --- Lightbox Gallery ---
+        const galleryItems = document.querySelectorAll('.gallery-item img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.querySelector('.lightbox-image');
+        const closeBtn = document.querySelector('.close-btn');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        let itemIndex = 0;
+
+        // Open Lightbox
+        galleryItems.forEach((img, index) => {
+            img.addEventListener('click', () => {
+                itemIndex = index;
+                lightbox.classList.add('active');
+                // Replace thumbnail URL with higher res logic (mock logic here changes w=600 to w=1600)
+                lightboxImg.src = img.src.replace('w=600', 'w=1600'); 
+            });
+        });
+
+        // Close Lightbox
+        closeBtn.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+        });
+
+        // Close on outside click
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('active');
+            }
+        });
+
+        // Show Previous Image
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent closing modal
+            itemIndex--;
+            if (itemIndex < 0) {
+                itemIndex = galleryItems.length - 1;
+            }
+            lightboxImg.src = galleryItems[itemIndex].src.replace('w=600', 'w=1600');
+        });
+
+        // Show Next Image
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent closing modal
+            itemIndex++;
+            if (itemIndex >= galleryItems.length) {
+                itemIndex = 0;
+            }
+            lightboxImg.src = galleryItems[itemIndex].src.replace('w=600', 'w=1600');
+        });
+
+        // --- Testimonial Scroller (JS Helpers) ---
+        const slider = document.getElementById('reviewSlider');
+        const leftBtn = document.getElementById('slideLeft');
+        const rightBtn = document.getElementById('slideRight');
+
+        leftBtn.addEventListener('click', () => {
+            slider.scrollBy({ left: -320, behavior: 'smooth' });
+        });
+
+        rightBtn.addEventListener('click', () => {
+            slider.scrollBy({ left: 320, behavior: 'smooth' });
+        });
+    </script>
+	
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes Gowri the best bridal mehendi artist in Chennai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gowri is one of the top-rated bridal mehendi artists in Chennai with 12+ years of experience, detailed designs, and guaranteed dark stain results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does bridal mehndi cost in Chennai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridal mehendi prices in Chennai range from ₹7,000 to ₹15,000 depending on design complexity, hand coverage, and customization needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer home-service bridal mehendi in Chennai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Gowri provides home-service mehendi across Chennai including Anna Nagar, T Nagar, Velachery, Tambaram, OMR and other regions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many hours does bridal mehendi take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A complete bridal mehendi session usually takes between 3 to 6 hours depending on the detailing and design style."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do to get a darker mehendi stain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Avoid water for 24 hours, keep the mehendi on for at least 6–8 hours, scrape instead of washing, and apply clove fumes or Vicks afterward for a richer color."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide engagement or guest mehendi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, engagement mehendi, guest mehendi, sangeet, and baby shower mehendi services are available at affordable pricing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I show my own design for customization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Of course! Custom bridal mehendi designs are welcome, and Gowri can replicate or enhance any design of your choice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do brides wear mehendi for weddings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bridal mehendi represents love, blessings, and prosperity. It is also believed that the darker the mehendi, the stronger the bond between the couple."
+      }
+    },
+  {
+  "@type": "Question",
+  "name": "Do you provide mehendi services for outstation weddings?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No, mehendi services are offered exclusively within Chennai. Outstation or destination wedding bookings are not accepted."
+  }
+}
+
+    {
+      "@type": "Question",
+      "name": "How do I book Gowri for my bridal mehendi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can book via WhatsApp or call at 9003385404, or submit an enquiry form on this website with details and event date."
+      }
+    }
+  ]
+}
+</script>
+
+
+<script>
+
+// FAQ Accordion
+const faqQuestions = document.querySelectorAll('.faq-question');
+
+faqQuestions.forEach(btn => {
+    btn.addEventListener('click', () => {
+
+        // Close all open answers
+        faqQuestions.forEach(b => {
+            if (b !== btn) {
+                b.classList.remove('active');
+                b.nextElementSibling.style.maxHeight = null;
+            }
+        });
+
+        // Toggle clicked
+        btn.classList.toggle('active');
+        const answer = btn.nextElementSibling;
+
+        if (btn.classList.contains('active')) {
+            answer.style.maxHeight = answer.scrollHeight + "px";
+        } else {
+            answer.style.maxHeight = null;
+        }
+    });
+});
+</script>
+
+
 
 </body>
 </html>
