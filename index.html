@@ -491,36 +491,49 @@ style="background-image: url('assets/images/gowri-bridal-mehendi-chennai_hero_3.
             <div class="separator"></div>
             <div class="form-container">
                 <!-- Web3Forms Form Service - No Backend Required -->
-                <form action="https://api.web3forms.com/submit" method="POST">
+<form action="https://api.web3forms.com/submit" method="POST">
 
     <input type="hidden" name="access_key" value="efb21103-324b-4a0f-b70f-33117f2f2759">
 
-    <label>Name</label>
-    <input type="text" name="client_name" required>
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="client_name" class="form-control" required>
+    </div>
 
-    <label>WhatsApp Number</label>
-    <input type="tel" name="whatsapp" required>
+    <div class="form-group">
+        <label>WhatsApp Number</label>
+        <input type="tel" name="whatsapp" class="form-control" required>
+    </div>
 
-    <label>Location</label>
-    <input type="text" name="location" placeholder="Chennai area">
+    <div class="form-group">
+        <label>Location</label>
+        <input type="text" name="location" class="form-control" placeholder="Chennai area">
+    </div>
 
-    <label>Service Type</label>
-    <select name="service">
-        <option value="Bridal Mehendi">Bridal Mehendi</option>
-        <option value="Guest Mehendi">Guest Mehendi</option>
-        <option value="Engagement Mehendi">Engagement Mehendi</option>
-        <option value="Sangeet Mehendi">Sangeet Mehendi</option>
-    </select>
+    <div class="form-group">
+        <label>Service Type</label>
+        <select name="service" class="form-control">
+            <option value="Bridal Mehendi">Bridal Mehendi</option>
+            <option value="Guest Mehendi">Guest Mehendi</option>
+            <option value="Engagement Mehendi">Engagement Mehendi</option>
+            <option value="Sangeet Mehendi">Sangeet Mehendi</option>
+        </select>
+    </div>
 
-    <label>Event Date</label>
-    <input type="date" name="date" required>
+    <div class="form-group">
+        <label>Event Date</label>
+        <input type="date" name="date" class="form-control" required>
+    </div>
 
-    <label>Additional Details</label>
-    <textarea name="notes"></textarea>
+    <div class="form-group">
+        <label>Additional Details</label>
+        <textarea name="notes" class="form-control"></textarea>
+    </div>
 
-    <button type="submit">Send Enquiry</button>
+    <button type="submit" class="submit-btn">Send Enquiry</button>
 
 </form>
+
 
             </div>
         </div>
