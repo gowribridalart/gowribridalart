@@ -492,44 +492,36 @@ style="background-image: url('assets/images/gowri-bridal-mehendi-chennai_hero_3.
             <div class="form-container">
                 <!-- Web3Forms Form Service - No Backend Required -->
                 <form action="https://api.web3forms.com/submit" method="POST">
-                    <!-- IMPORTANT: Replace YOUR_ACCESS_KEY_HERE with your actual key from web3forms.com -->
-                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-                    
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your full name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" class="form-control" required placeholder="Enter your WhatsApp number">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="service">Service Type</label>
-                        <select id="service" name="service" class="form-control">
-                            <option value="Bridal Mehendi">Bridal Mehendi</option>
-                            <option value="Guest Mehendi">Guest Mehendi</option>
-                            <option value="Engagement Mehendi">Engagement Mehendi</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="date">Event Date</label>
-                        <input type="date" id="date" name="date" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Details</label>
-                        <textarea id="message" name="message" class="form-control" placeholder="Tell me about your design preferences, location, etc."></textarea>
-                    </div>
+    <input type="hidden" name="access_key" value="efb21103-324b-4a0f-b70f-33117f2f2759">
 
-                    <!-- Hidden Redirect (Optional) -->
-                    <input type="hidden" name="redirect" value="https://gowri-bridal-art.vercel.app">
+    <label>Name</label>
+    <input type="text" name="client_name" required>
 
-                    <button type="submit" class="submit-btn">Send Enquiry</button>
-                </form>
+    <label>WhatsApp Number</label>
+    <input type="tel" name="whatsapp" required>
+
+    <label>Location</label>
+    <input type="text" name="location" placeholder="Chennai area">
+
+    <label>Service Type</label>
+    <select name="service">
+        <option value="Bridal Mehendi">Bridal Mehendi</option>
+        <option value="Guest Mehendi">Guest Mehendi</option>
+        <option value="Engagement Mehendi">Engagement Mehendi</option>
+        <option value="Sangeet Mehendi">Sangeet Mehendi</option>
+    </select>
+
+    <label>Event Date</label>
+    <input type="date" name="date" required>
+
+    <label>Additional Details</label>
+    <textarea name="notes"></textarea>
+
+    <button type="submit">Send Enquiry</button>
+
+</form>
+
             </div>
         </div>
     </section>
